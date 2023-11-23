@@ -8,12 +8,14 @@
 <h1>Users</h1>
 <table border="1">
     <tr>
+        <th>Id</th>
         <th>First name</th>
         <th>Last name</th>
         <th>Email</th>
         <th>Options</th>
     </tr>
     <tr th:each="user : ${users}">
+        <td th:utext="${user.getId()}">Id</td>
         <td th:utext="${user.getFirstName()}">First name</td>
         <td th:utext="${user.getLastName()}">Last name</td>
         <td th:utext="${user.getEmail()}">E-mail</td>

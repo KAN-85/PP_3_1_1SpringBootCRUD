@@ -1,11 +1,11 @@
-package ru.pp.pp_3_3_1springbootcrud.controller;
+package ru.pp.pp_3_1_1springbootcrud.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import ru.pp.pp_3_3_1springbootcrud.model.User;
-import ru.pp.pp_3_3_1springbootcrud.service.UserService;
+import ru.pp.pp_3_1_1springbootcrud.model.User;
+import ru.pp.pp_3_1_1springbootcrud.service.UserService;
 
 @Controller
 public class UserController {
